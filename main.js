@@ -5,7 +5,7 @@ function revserseAll(arr) {
 
 // 2
 function findlen(n) {
-	count;
+	var count;
 	for (var i = 1;i <= n ;i ++) {
 		if ((i % 15) || !(i % 3 || i % 5))
 			i++;
