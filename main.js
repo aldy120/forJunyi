@@ -1,6 +1,14 @@
 // 1
-function revserseAll(arr) {
-	return reverseAll(arr.)
+function outputReverse(arr){
+	(function reverseAll(arr) {
+		for (a of arr) {
+			if (Array.isArray(a)) {
+				reverseAll(a)
+			}
+		}
+		arr.reverse();
+	})(arr);
+	return arr;
 }
 
 // 2
